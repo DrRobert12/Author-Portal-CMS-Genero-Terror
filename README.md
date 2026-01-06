@@ -33,17 +33,17 @@ Una decisión técnica clave fue evitar la dependencia de **Node.js/NPM** en el 
 ---
 
 ## Stack Tecnológico
-- **Backend: Django 5.x (Python 3.10+)
+- Backend: Django 5.x (Python 3.10+)
 
-- **Frontend: Vanilla JS + Tailwind CSS Standalone
+- Frontend: Vanilla JS + Tailwind CSS Standalone
 
-- **Media Management: Cloudinary API
+- Media Management: Cloudinary API
 
-- **Rich Text: Django-CKEditor (Custom Config)
+- Rich Text: Django-CKEditor (Custom Config)
 
 ---
 
-## 🚀 Arquitectura de la App
+## Arquitectura de la App
 
 ```mermaid
 graph LR
