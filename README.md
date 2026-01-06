@@ -1,7 +1,7 @@
 # Author-Portal-CMS-Genero-Terror
 Sitio en línea especializado en la representación literaria de un escritor de horror.
 
-# 🌑 Author Portal: Horror Genre CMS
+# Author Portal: Horror Genre CMS
 
 [![Django](https://img.shields.io/badge/Django-5.0-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_Standalone-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
@@ -11,7 +11,7 @@ Sitio en línea especializado en la representación literaria de un escritor de 
 
 ---
 
-## 🛠️ Backend Engineering & Design Patterns
+## Backend Engineering & Design Patterns
 
 ### 1. Singleton Pattern Implementation
 Para garantizar la integridad de la identidad del autor, se implementó un **Patrón Singleton** a nivel de modelo en Django. Esto restringe la creación de múltiples perfiles, asegurando que el cliente solo pueda editar un único registro de "Autor" y "Mensaje de Bienvenida", evitando errores de redundancia en el frontend.
@@ -26,9 +26,20 @@ En lugar de utilizar ReCaptcha (que rompe la estética inmersiva del sitio), se 
 
 ---
 
-## 🎨 Dev-Experience: Standalone Tailwind
+## Dev-Experience: Standalone Tailwind
 Una decisión técnica clave fue evitar la dependencia de **Node.js/NPM** en el entorno de producción y desarrollo. 
 * Se utilizó el ejecutable **Tailwind Standalone CLI** para compilar el diseño "Void/Blood", simplificando el despliegue y reduciendo la superficie de ataque al no tener una carpeta `node_modules` masiva.
+
+---
+
+## Stack Tecnológico
+- **Backend: Django 5.x (Python 3.10+)
+
+- **Frontend: Vanilla JS + Tailwind CSS Standalone
+
+- **Media Management: Cloudinary API
+
+- **Rich Text: Django-CKEditor (Custom Config)
 
 ---
 
